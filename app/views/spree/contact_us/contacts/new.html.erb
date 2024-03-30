@@ -9,13 +9,8 @@
       <div class="col-12 col-lg-6 text-center text-lg-left">
         <div class="pt-2 pb-lg-1 mb-3 contact-us-subheader">
           <figure class="logo mx-auto mx-xl-0 pb-xl-1 mb-0 mb-xl-4">
-            <%= image_tag Spree::Config[:logo], alt: current_store.name, class: 'w-25', title: current_store.name %>
           </figure>
         </div>
-        <div><%= Spree.t('spree_contact_us.address_line1') %></div>
-        <div class="mb-4 pb-2 pb-lg-0"><%= Spree.t('spree_contact_us.address_line2') %></div>
-        <div><%= Spree.t('spree_contact_us.call_us') %>: <span class="green-text font-weight-bold"><%= Spree.t('spree_contact_us.call_us_number') %></span></div>
-        <div><%= Spree.t('spree_contact_us.email') %>: <span class="green-text font-weight-bold"><%= current_store.mail_from_address %></span></div>
       </div>
       <div class="col-12 col-lg-6 mt-5 mt-lg-0">
         <div class="mt-4 mt-lg-2 mb-1 mb-lg-2 contact-us-subheader text-center text-lg-left">
