@@ -1,3 +1,4 @@
+require 'contact_us'
 module SpreeContactUs
   class Engine < Rails::Engine
     engine_name 'spree_contact_us'
